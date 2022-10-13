@@ -1,0 +1,25 @@
+.catalog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 8% 1fr 22%;
+  grid-template-areas: 
+    "header header"
+    "catalog-area catalog-area"
+    "footer footer";
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: Blue;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: Black;
+}
+
+.catalog-area {
+  grid-area: catalog-area;
+  background-color: Red;
+}
