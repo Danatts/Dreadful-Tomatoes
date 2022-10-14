@@ -7,10 +7,10 @@ To do so, the company has to create a new web app that allow users do some fancy
 
 Refereneces:
 
-![landing page](../docs/reference01.png)
+![landing page](docs/reference01.png)
 
-![movies page](../docs/reference02.png)
+![movies page](docs/reference02.png)
 
-![series page](../docs/reference03.png)
+![series page](docs/reference03.png)
 
 ## Development process
