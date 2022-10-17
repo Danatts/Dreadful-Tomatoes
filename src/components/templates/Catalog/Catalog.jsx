@@ -1,11 +1,14 @@
+import Header from 'components/organisms/Header/Header';
+import Footer from 'components/organisms/Footer/Footer';
 import './Catalog.scss';
 
 function Catalog() {
   return (
     <div className='catalog'>
-      <div className='header' />
-      <div className='catalog-area' />
-      <div className='footer' />
+      <Header />
+      <div className='catalog__searcher' />
+      <div className='catalog__cards' />
+      <Footer />
     </div>
 
   );

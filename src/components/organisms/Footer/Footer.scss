@@ -1,0 +1,10 @@
+@import 'styles/palette';
+
+.footer {
+  align-items: center;
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+  grid-column: footer;
+  justify-content: center;
+}

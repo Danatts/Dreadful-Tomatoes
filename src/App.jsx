@@ -1,10 +1,10 @@
-import Main from 'components/templates/Main/Main';
+import Principal from 'components/templates/Principal/Principal';
 import Catalog from 'components/templates/Catalog/Catalog';
-import 'App.scss';
 
 function App() {
   return (
     <div className="App">
+      <Principal />
       <Catalog />
     </div>
   );

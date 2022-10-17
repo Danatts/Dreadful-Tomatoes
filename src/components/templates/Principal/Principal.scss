@@ -1,0 +1,22 @@
+.principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 7% 1fr 18%;
+  grid-template-areas: 
+    "header header"
+    "movie-area serie-area"
+    "footer footer";
+  height: 100vh;
+
+  &__movie-area {
+    grid-area: movie-area;
+    background-color: Red;
+  }
+
+  &__serie-area {
+    grid-area: serie-area;
+    background-color: Tomato;
+  }
+
+}
+

@@ -1,25 +1,22 @@
 .catalog {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 8% 1fr 22%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 7% 7% 1fr 18%;
   grid-template-areas: 
-    "header header"
-    "catalog-area catalog-area"
-    "footer footer";
+    "header"
+    "searcher"
+    "cards"
+    "footer";
   height: 100vh;
+
+  &__searcher {
+    grid-area: searcher;
+    background-color: Orange;
+  }
+
+  &__cards {
+    grid-area: cards;
+    background-color: Red;
+  }
 }
 
-.header {
-  grid-area: header;
-  background-color: Blue;
-}
-
-.footer {
-  grid-area: footer;
-  background-color: Black;
-}
-
-.catalog-area {
-  grid-area: catalog-area;
-  background-color: Red;
-}
